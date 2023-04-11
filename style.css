@@ -1,0 +1,110 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color: #FFD900;
+    padding: 27px 1468px 28px 58px;
+}
+
+section{
+    display: grid;
+    grid-auto-flow: column;
+    background-color: #514988;
+}
+
+footer{
+    align-items: center;
+    width: 900px;
+
+}
+
+footer h2{
+    font-size: x-large;
+    padding: 20px, 20px;
+}
+
+h2{
+    color: #F3C61F;
+    font-size:xx-large;
+
+}
+
+h3{
+    color: #FFFFFF;
+    font-size:large;
+}
+
+h4{
+    color: #E33881;
+}
+
+p{
+    color: #FFFFFF;
+    margin-top: 72px;
+}
+
+.timer{
+    background-color: #FFFFFF;
+    color: #514988;
+    font-size: x-large;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.column{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    position: absolute;
+    margin-left: 50px;
+    width: 500px;
+    height: 130px;
+    background:#514988;
+    border-radius: 20px;
+
+    font-size: 42px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+#formulario{
+    background-color: #FFD900;
+}
+
+input{
+    background: #514988;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border: 0pt;
+    margin: 30px;
+    width: 300px;
+    height: 70px;
+    font-size: 30px;
+}
+
+input:hover{
+    cursor: pointer;
+    color: #F3C61F;
+}
+
+button:hover{
+    cursor: pointer;
+    color: #F3C61F;
+}
+
+.card-highlight{
+    box-shadow: 10px 10px 10px 10px grey;
+}
+
+#select{
+    margin-bottom: 75px;
+}
+
+.card-selected{
+    border: 5px solid green;
+}
